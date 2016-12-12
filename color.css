@@ -1,0 +1,20 @@
+
+
+@keyframes colorfull_ {
+    0%   { 
+        background-color: white;
+        color: black;
+    }
+    50% {
+        background-color: black;
+        color:white;
+    }
+    100% { 
+        background-color: white;
+        color: black;
+    }
+}
+
+.colorfull {
+    animation: colorfull_ 10s linear infinite;
+}
